@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+  
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  background-color: aliceblue;
+  height: 50px;
+}
+.container a{
+  border-bottom: 10px;
+}
+
+/* *****************contact****************** */
+.contact{
+  text-align: center;
+  margin: 20px;
+}
+.content{
+  display: flex;
+  justify-content: space-around;
+}
+.content-iterm{
+  height: 400px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 10px 10px 5px -1px rgba(129, 98, 98, 0.40);
+  
+}
