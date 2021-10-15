@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  if((hour >= 9) && (hour <= 17)){
+    div.container 
+      <a href="/">Home page</a>
+      <a href="/home" class="Our Services">Our Services</a>
+      <a href="/Contact" class="Contact us">Contact us</a>
+    div.contact
+        h1 BIENVENUE CHEZ LE DEV
+  }
+else{
+  h1 l'heure est passe
+}
+
